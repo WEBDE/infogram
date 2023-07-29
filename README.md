@@ -1,2 +1,99 @@
 # infogram
 A web by the webmaster KA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infoweb</title>
+    <style>
+        /* The rest of the CSS styles remain the same */
+        
+        /* Add live background animation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background: linear-gradient(135deg, #007bff, #00ff00);
+            background-size: 400% 400%;
+            animation: changeBackground 20s infinite;
+        }
+
+        @keyframes changeBackground {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Facts OR Fiction</h1>
+    </header>
+
+    <main>
+        <h2>Welcome to Infoweb</h2>
+        <p>Choose a category to explore fascinating facts from all over the world!</p>
+        <div class="buttons-container">
+            <a href="#nature" class="category-button">Nature</a>
+            <a href="#infrastructure" class="category-button">Infrastructure</a>
+            <a href="#space" class="category-button">Space</a>
+        </div>
+
+        <section id="nature">
+            <h2>Nature Facts</h2>
+            <p>Here are some fascinating facts about nature:</p>
+            <ul>
+                <li>
+                    <strong>Fact 1:</strong> The Amazon Rainforest is the largest rainforest in the world, spanning over 5.5 million square kilometers.
+                </li>
+                <li>
+                    <strong>Fact 2:</strong> The Blue Whale is the largest animal to have ever existed on Earth, with lengths of up to 30 meters.
+                </li>
+                <li>
+                    <strong>Fact 3:</strong> Lightning strikes the Earth about 8 million times per day.
+                </li>
+            </ul>
+        </section>
+
+        <section id="infrastructure">
+            <h2>Infrastructure Facts</h2>
+            <p>Explore interesting facts about infrastructure:</p>
+            <ul>
+                <li>
+                    <strong>Fact 1:</strong> The Great Wall of China is approximately 13,170 miles long and took over 2,000 years to build.
+                </li>
+                <li>
+                    <strong>Fact 2:</strong> The Panama Canal, which connects the Atlantic and Pacific Oceans, was completed in 1914 and saves ships over 8,000 miles of travel.
+                </li>
+                <li>
+                    <strong>Fact 3:</strong> The Burj Khalifa in Dubai, United Arab Emirates, is the tallest building in the world, standing at a height of 828 meters (2,717 feet).
+                </li>
+            </ul>
+        </section>
+
+        <section id="space">
+            <h2>Space Facts</h2>
+            <p>Discover amazing facts about space:</p>
+            <ul>
+                <li>
+                    <strong>Fact 1:</strong> The Milky Way galaxy is estimated to contain over 100 billion stars.
+                </li>
+                <li>
+                    <strong>Fact 2:</strong> The Hubble Space Telescope, launched in 1990, has provided stunning images of distant galaxies and nebulae.
+                </li>
+                <li>
+                    <strong>Fact 3:</strong> The speed of light is approximately 299,792 kilometers per second, which means light from the Sun takes about 8 minutes and 20 seconds to reach Earth.
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
